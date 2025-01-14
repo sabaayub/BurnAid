@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    tools:context=".blog3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Blog"
+        android:textColor="#333"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- CardView Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#FFFFFF"
+            app:cardCornerRadius="16dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Causes of Fire Burn Accident -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Causes of Fire Burn Accident"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Fire burns occur when the skin comes into direct contact with flames, hot surfaces, or hot liquids. These burns can result in serious injuries depending on the intensity and duration of exposure to the heat source." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Main Causes:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Contact with open flames from cooking or accidental fires." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Exposure to hot surfaces such as heated metal or glass." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Accidental use of flammable substances near open flames." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Electrical fires causing burns." />
+
+                <!-- Symptoms of Fire Burn Accident -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Symptoms of Fire Burn Accident"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Fire burns can have severe effects on the skin, causing immediate pain and discomfort. The symptoms include:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Severe redness and swelling of the burned area." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Pain or throbbing sensation in the affected area." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Blisters and open wounds." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• In severe cases, scarring or tissue damage may occur." />
+
+                <!-- Prevention Tips for Fire Burn Accident -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Prevention Tips for Fire Burn Accident"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Preventing fire burns is crucial to ensure safety in daily activities. Here are some tips:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Be Cautious with Flames: Always supervise cooking with open flames, and ensure that flammable materials are kept away from heat sources." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Use Fire Extinguishers: Keep fire extinguishers in easily accessible places and know how to use them in case of a fire." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Wear Appropriate Protective Gear: When handling hot surfaces, wear heat-resistant gloves, and protective clothing to minimize burn risks." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Avoid Flammable Materials: Keep flammable substances away from direct heat or open flames to prevent fires." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Electrical Safety: Ensure that electrical appliances and wiring are in good condition to avoid short circuits and fire accidents." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Regular Fire Drills: Conduct regular fire drills and safety training to prepare for emergency situations." />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>
+

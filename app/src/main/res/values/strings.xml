@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Burn Aid</string>
+    <string name="logo_description">Logo</string>
+    <string name="register_to_burnaid">Register to BurnAid</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="toggle_password_description">Toggle Password Visibility</string>
+    <string name="toggle_confirm_password_description">Toggle Confirm Password Visibility</string>
+    <string name="terms_and_conditions">I have read and agree with the Terms and Conditions and Privacy Policy</string>
+    <string name="receive_offers">Be the first to receive offers and news</string>
+    <string name="get_started">Get Started</string>
+</resources>

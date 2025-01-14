@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    tools:context=".blog2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Blog"
+        android:textColor="#333"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- CardView Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#FFFFFF"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Causes of Kitchen Burn -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Causes of Kitchen Burn"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Kitchen burns occur frequently due to hot surfaces, steam, boiling liquids, and direct contact with sharp objects. These burns can range from mild to severe depending on the extent of the injury." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Main Causes:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Accidental touching of hot pans, pots, or ovens." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Spills of hot liquids like boiling water, oil, or sauces." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Contact with hot surfaces like stovetops, oven racks, or microwave plates." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Use of sharp utensils leading to cuts and burns simultaneously." />
+
+                <!-- Symptoms of Kitchen Burn -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Symptoms of Kitchen Burn"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Kitchen burns can lead to various symptoms depending on their severity:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Redness and swelling at the affected area." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Pain or discomfort when touching or moving the burned area." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• In severe cases, blistering or even skin peeling can occur." />
+
+                <!-- Prevention Tips for Kitchen Burn -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Prevention Tips for Kitchen Burn"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Preventing kitchen burns can significantly reduce the risk of injury. Here are some tips:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Use Proper Kitchen Tools: Always use oven mitts, heat-resistant gloves, and utensils to avoid direct contact with hot surfaces." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Keep Workspaces Organized: Avoid placing hot objects near the edge of countertops to reduce the risk of accidental spills." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Be Cautious with Hot Liquids: When handling boiling liquids, use deep pots and tilt them away from yourself to prevent spills." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Avoid Sharp Objects: Use appropriate cutting boards and handle knives carefully to prevent cuts and burns simultaneously." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Maintain a Safe Distance: When working with hot ovens or stovetops, maintain a safe distance to avoid direct exposure to heat and steam." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Regular Cleaning: Clean kitchen appliances regularly to remove grease and prevent accidental burns caused by splatters." />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".registration">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo_description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/register_to_burnaid"
+            android:textColor="#333333"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-medium" />
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_full_name"
+            android:background="@drawable/textbox"
+            android:padding="12dp"
+            android:textColorHint="#808080"
+            android:textColor="#000000"
+            android:inputType="textPersonName"
+            android:autofillHints="name" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/hint_email"
+            android:background="@drawable/textbox"
+            android:padding="12dp"
+            android:textColorHint="#808080"
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress" />
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"
+                android:background="@drawable/textbox"
+                android:padding="12dp"
+                android:textColorHint="#808080"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:autofillHints="password" />
+
+            <ImageButton
+                android:id="@+id/password_toggle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="?android:selectableItemBackground"
+                android:contentDescription="@string/toggle_password_description"
+                android:padding="4dp"
+                app:srcCompat="@drawable/hidden" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/confirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_confirm_password"
+                android:background="@drawable/textbox"
+                android:padding="12dp"
+                android:textColorHint="#808080"
+                android:textColor="#000000"
+                android:inputType="textPassword"
+                android:autofillHints="password" />
+
+            <ImageButton
+                android:id="@+id/confirm_password_toggle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"
+                android:background="?android:selectableItemBackground"
+                android:padding="4dp"
+                android:contentDescription="@string/toggle_confirm_password_description"
+                app:srcCompat="@drawable/hidden" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <CheckBox
+                android:id="@+id/termsCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/terms_and_conditions"
+                android:textColor="#666666" />
+
+            <CheckBox
+                android:id="@+id/offersCheckbox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/receive_offers"
+                android:textColor="#666666" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reg_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/get_started"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#0149AF"
+            android:textAllCaps="true" />
+    </LinearLayout>
+</RelativeLayout>

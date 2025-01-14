@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2"
+    tools:context=".blog1">
+
+        <!-- Blog Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Blog"
+            android:textColor="#333"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <!-- CardView Section -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_margin="16dp"
+            android:backgroundTint="#FFFFFF"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <!-- Causes of Sunburn -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Causes of Sunburn"
+                    android:textColor="#333"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Sunburn occurs when your skin is exposed to excessive ultraviolet (UV) rays from the sun. When the skin is overexposed to these rays, the skin cells are damaged, leading to redness, pain, and discomfort." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Main Causes:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Prolonged sun exposure without protection." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Spending too much time outdoors, especially during peak sunlight hours (10 AM - 4 PM)." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Fair skin is more prone to sunburn, but it can happen to anyone." />
+
+                <!-- Symptoms of Sunburn -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="Symptoms of Sunburn"
+                    android:textSize="18sp"
+                    android:textColor="#333"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Sunburn can range from mild to severe. The common symptoms include:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Redness and inflammation of the skin." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Pain or sensitivity to touch." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Swelling in the affected areas." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• In severe cases, blistering may occur." />
+
+                <!-- Prevention Tips for Sunburn -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Prevention Tips for Sunburn"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="Preventing sunburn is easier than treating it. Here are some simple steps:" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Wear Sunscreen: Use a broad-spectrum sunscreen with an SPF of at least 30. Reapply every 2 hours, especially after swimming or sweating." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Cover Up: Wear protective clothing, including hats and sunglasses, to shield yourself from direct UV rays." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Seek Shade: Limit exposure to direct sunlight, especially during peak hours." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Stay Hydrated: Drink plenty of water to keep your skin hydrated and reduce the risk of sunburn." />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:textColor="#333"
+                    android:text="• Avoid Sunlamps: Tanning beds and sunlamps emit UV rays and can contribute to sunburn and skin damage." />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        </ScrollView>
+    </LinearLayout>
+
+
