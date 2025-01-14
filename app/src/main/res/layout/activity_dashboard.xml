@@ -181,7 +181,7 @@
                                 android:layout_height="wrap_content"
                                 android:padding="8dp"
                                 android:id="@+id/sunburnCard"
-                                android:text="Sun Burn"
+                                android:text="Sun BurN"
                                 android:textColor="@color/white"
                                 android:textSize="16sp"
                                 android:textStyle="bold" />
